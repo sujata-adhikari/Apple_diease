@@ -56,7 +56,7 @@ if(app_mode=="Home"):
 
 
     **Symptoms:**
-    - Dark, olive-green or black lesions on leaves, fruit, and twigs.
+    - Dark, olive-green, or black lesions on leaves, fruit, and twigs.
     - Velvety texture on the underside of leaves.
     - Premature leaf drop.
 
@@ -73,7 +73,7 @@ if(app_mode=="Home"):
     - Twig cankers and leaf drop.
 
     **Treatment:**
-    - Apply fungicides containing active ingredients like captan or thiophanate-methyl.
+    - Apply fungicides containing active ingredients like captan.
     - Remove infected fruit and prune affected branches during dormant season.
     - Promote good air circulation and sanitation practices.
 
@@ -108,13 +108,13 @@ elif(app_mode=="About"):
     st.header("About")
     st.markdown("""
                 #### About Dataset
-                This dataset is recreated using offline augmentation from the original dataset.The original dataset can be found on this github repo.
-                This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
-                A new directory containing 33 test images is created later for prediction purpose.
+                This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found on this GitHub repo.
+                This dataset consists of images of healthy and diseased apple leaves which are categorized into 4 different classes. The total dataset is divided into an 80/20 ratio of training and validation set preserving the directory structure.
+                
                 #### Content
-                1. train (70295 images)
-                2. test (33 images)
-                3. validation (17572 images)
+                1. train - Used to train the model
+                2. test - Used to test the model
+                3. validation - used for validation of the model
 
                 """)
 
