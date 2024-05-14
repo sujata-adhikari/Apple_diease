@@ -4,4 +4,4 @@ streamlit
 numpy 
 tensorflow 
 seaborn 
-ImageDataGenerator
+
